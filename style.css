@@ -1,0 +1,83 @@
+.headblock {
+  background-color: rgba(212, 190, 148);
+  height: 20px;
+  width: 100%;
+  border-radius: 90%;
+}
+
+.mainplane {
+  image-rendering: pixelated;
+  background: url('https://media1.tenor.com/m/VXK2tjK7Uh0AAAAC/pixel-art.gif');
+  background-size: cover;
+}
+
+.firstblock {
+   text-align: center;
+   height: 250px;
+   font-family: cursive;
+  
+}
+
+.mainblock {
+  height: 400px;
+  width: 50%;
+  margin-left: 25%;
+  margin-right: 25%;
+  text-align: center;
+  font-family: cursive;
+
+
+
+}
+
+.downblock {
+  background-color: rgba(212, 190, 148, 0.4);
+  height: 500px;
+  margin-top: 100px;
+  filter: blur(30px)
+}
+
+.titletext {
+  
+
+}
+.normaltext {
+  
+}
+
+.button1 {
+  background-color: #DEB887;
+  height: 50px;
+  width: 150px;
+  text-align: center;
+  margin-top:5px;
+  margin-left: 42.5%;
+  text-align: center;
+
+  
+  top: 0; left: 0;
+  box-shadow: 3px 3px 0 rgba(0, 0, 0, 0.5);
+  position: relative;
+  border-radius: 10%;
+  border: 5px dashed #DEB887;
+  transition: 0.3s;
+ }
+.button1:active {
+  box-shadow: none; /* Убираем тень */
+  top: 3px; left: 3px;
+}
+.button1:hover {
+  background-color: #D2B48C;
+  border: 5px dashed #9c7b51;
+}
+  
+
+  
+/* .projectwindow {
+  border: 5px solid black;
+  background-color: grey;
+  width: 100px;
+  height: 100px;
+   
+}
+ */
